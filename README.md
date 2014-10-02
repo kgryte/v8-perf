@@ -13,7 +13,7 @@ The implemented tests are as follows...
 
 #### Timer
 
-The first test provides an indication as to how long Node takes to measure elapsed time in high resolution. 
+This test provides an indication as to how long Node takes to measure elapsed time in high resolution. 
 
 ``` javascript
 var start = process.hrtime();
@@ -25,7 +25,7 @@ My machine regularly clocks around `2 microseconds`.
 
 #### Counter
 
-The second test runs a `FOR` loop which increments a counter `1e9` times. The average time printed to `stdout` is the average iteration time.
+This test runs a `FOR` loop which increments a counter `1e9` times. The average time printed to `stdout` is the average iteration time.
 
 ``` javascript
 var start = process.hrtime(),
@@ -43,7 +43,7 @@ My machine regularly clocks around `1 nanosecond`.
 
 #### Arithmetic
 
-The third test runs a `FOR` loop which performs a series of arithmetic operations. The average time printed to `stdout` is the average iteration time.
+This test runs a `FOR` loop which performs a series of arithmetic operations. The average time printed to `stdout` is the average iteration time.
 
 ``` javascript
 var start = process.hrtime(),
@@ -61,7 +61,7 @@ My machine regularly clocks around `20 nanoseconds`.
 
 #### Random Numbers
 
-The fourth test runs a `FOR` loop which adds to freshly generated random numbers. The average time printed to `stdout` is the average iteration time.
+This test runs a `FOR` loop which adds two freshly generated random numbers. The average time printed to `stdout` is the average iteration time.
 
 ``` javascript
 var start = process.hrtime();
@@ -79,7 +79,7 @@ My machine regularly clocks around `7 nanoseconds`.
 
 #### Mean
 
-The fifth test runs a `FOR` loop which incrementally calculates a mean value. The average time printed to `stdout` is the average iteration time.
+This test runs a `FOR` loop which incrementally calculates a mean value. The average time printed to `stdout` is the average iteration time.
 
 ``` javascript
 var start = process.hrtime(),
@@ -99,7 +99,7 @@ My machine regularly clocks around `30 nanoseconds`.
 
 #### Event Loop
 
-The sixth test recursively calls a function scheduled for immediate execution. See [setImmediate()](http://nodejs.org/api/timers.html#timers_setimmediate_callback_arg). The average time printed to `stdout` is the average operation time.
+This test recursively calls a function scheduled for immediate execution. See [setImmediate()](http://nodejs.org/api/timers.html#timers_setimmediate_callback_arg). The average time printed to `stdout` is the average operation time.
 
 ``` javascript
 function foo() {
