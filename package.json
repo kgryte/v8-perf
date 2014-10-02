@@ -1,0 +1,27 @@
+{
+  "name": "v8-clockrate",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Athan Reines <athan@nodeprime.com>",
+  "contributors": [
+    {}
+  ],
+  "bin": {
+    "clock": "./bin/index.js"
+  },
+  "scripts": {
+    "clock": "node bin/index.js"
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": ""
+}
