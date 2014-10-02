@@ -7,10 +7,10 @@
     {}
   ],
   "bin": {
-    "clock": "./bin/index.js"
+    "tests": "./bin/index.js"
   },
   "scripts": {
-    "clock": "node bin/index.js"
+    "tests": "node bin/index.js"
   },
   "main": "",
   "repository": {

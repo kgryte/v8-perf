@@ -116,7 +116,7 @@ My machine regularly clocks `2 microseconds` and around `0.5e6` operations.
 
 ## Run
 
-To run the script from the top-level application directory,
+To run the tests from the top-level application directory,
 
 ``` bash
 $ node ./bin/index.js
