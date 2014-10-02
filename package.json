@@ -1,8 +1,11 @@
 {
   "name": "v8-clockrate",
   "version": "0.0.0",
-  "description": "",
-  "author": "Athan Reines <athan@nodeprime.com>",
+  "description": "Very simple tests of V8 (and Node.js) performance.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
   "contributors": [
     {}
   ],
@@ -15,13 +18,23 @@
   "main": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kgryte/v8-perf"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kgryte/v8-perf/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "v8",
+    "nodejs",
+    "tests",
+    "performance"
+  ],
   "dependencies": {},
   "devDependencies": {},
-  "license": ""
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
 }
