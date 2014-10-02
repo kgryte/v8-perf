@@ -128,6 +128,12 @@ $ node ./bin/index.js
 The _event loop_ test probably sheds light on the _start/stop_ test, in which `process.hrtime()` is executed on the next tick. Hence, the two tests return similar results.
 
 
+
+## License
+
+[MIT license](http://opensource.org/licenses/MIT). 
+
+
 ---
 ## Copyright
 
