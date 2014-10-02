@@ -9,7 +9,7 @@ To determine operation time, the script uses Node's built-in high-resolution tim
 
 ## Tests
 
-The implemented tests are as follows:
+The implemented tests are as follows...
 
 #### Timer
 
