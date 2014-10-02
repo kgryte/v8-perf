@@ -13,7 +13,7 @@ The implemented tests are as follows:
 
 #### Timer
 
-The first test provides an indication how long Node takes to measure elapsed time in high resolution. 
+The first test provides an indication as to how long Node takes to measure elapsed time in high resolution. 
 
 ``` javascript
 var start = process.hrtime();
