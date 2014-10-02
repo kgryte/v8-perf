@@ -3,7 +3,7 @@ Performance
 
 > Very simple tests of V8 (and Node.js) performance.
 
-The executable script `./bin/index.js` executes a series of simple tests to measure how long V8 takes to execute an operation.
+The executable script `./bin/index.js` executes a series of simple tests to measure how long V8 takes to execute an operation (where operation is loosely defined).
 
 To determine operation time, the script uses Node's built-in high-resolution timer: `process.hrtime()`. 
 
