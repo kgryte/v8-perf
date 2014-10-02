@@ -1,7 +1,7 @@
 Performance
 ===========
 
-> Very simple tests of V8 performance.
+> Very simple tests of V8 (and Node.js) performance.
 
 The executable script `./bin/index.js` executes a series of simple tests to measure how long V8 takes to execute an operation.
 
@@ -9,7 +9,7 @@ To determine operation time, the script uses Node's built-in high-resolution tim
 
 ## Tests
 
-The tests implemented are as follows:
+The implemented tests are as follows:
 
 #### Timer
 
@@ -20,7 +20,7 @@ var start = process.hrtime();
 var diff = process.hrtime( start );
 ```
 
-My machine regularly clocks around `2` microseconds.
+My machine regularly clocks around `2 microseconds`.
 
 
 #### Counter
@@ -38,7 +38,7 @@ for ( var i = 0; i < 1e9; i++ ) {
 var diff = process.hrtime( start );
 ```
 
-My machine regularly clocks around `1` nanosecond.
+My machine regularly clocks around `1 nanosecond`.
 
 
 #### Arithmetic
@@ -56,7 +56,7 @@ for ( var i = 0; i < 1e9; i++ ) {
 var diff = process.hrtime( start );
 ```
 
-My machine regularly clocks around `20` nanoseconds.
+My machine regularly clocks around `20 nanoseconds`.
 
 
 #### Random Numbers
@@ -73,7 +73,7 @@ for ( var i = 0; i < 1e9; i++ ) {
 var diff = process.hrtime( start );
 ```
 
-My machine regularly clocks around `7` nanoseconds.
+My machine regularly clocks around `7 nanoseconds`.
 
 
 
@@ -94,7 +94,7 @@ for ( var i = 0; i < 1e9; i++ ) {
 var diff = process.hrtime( start );
 ```
 
-My machine regularly clocks around `30` nanoseconds.
+My machine regularly clocks around `30 nanoseconds`.
 
 
 #### Event Loop
@@ -111,7 +111,7 @@ function foo() {
 foo();
 ```
 
-My machine regularly clocks `2` microseconds and around `0.5e6` operations.
+My machine regularly clocks `2 microseconds` and around `0.5e6` operations.
 
 
 ## Run
